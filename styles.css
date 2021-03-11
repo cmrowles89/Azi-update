@@ -1,0 +1,93 @@
+/*This removes the default space around the content on the page*/
+body {
+margin: 0;
+}
+
+/*Styles for paragraphs next to images in the main content area*/
+.img-content p {
+float: right;
+width: 70%;
+padding-top: 10px;
+}
+
+/*Styles for images in the main content area*/
+.img-content img {
+width: 20%;
+border-radius: 100%;
+margin-left: 20px;
+}
+
+/*Styles for main header image*/
+.header-image {
+background: url(beachyoga2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 600px;
+}
+
+/*Styles for name (image) in the header*/
+.header-name {
+background: url(christina.png);
+background-repeat: no-repeat;
+background-position: center;
+padding-top: 8%;
+}
+
+/*Styles for green header banner below to header image*/
+.header-banner {
+background-color: #009688;
+padding: 2px 0;
+color: #fff;
+margin-bottom: 50px;
+text-align: center;
+font-family: sans-serif;
+font-size: 24px;
+}
+
+/*Styles for sidebar ('float:right' is used to position the sidebar to the right of the main content*/
+.sidebar {
+float: right;
+width:30%;
+height: auto;
+right:0;
+padding-left:20px;
+background-color: #f7f7f7;
+border-left: 3px solid #ccc;
+}
+
+/*Styles h1 text in the sidebar*/
+.sidebar h1 {
+font-size: 32px;
+font-family: sans-serif;
+}
+
+/*Styles for main content area*/
+.main-content {
+width: 65%;
+}
+
+/*Styles for main content area in the footer (div)*/
+.footer-content {
+text-align: center;
+}
+
+/*General footer styles*/
+footer {
+background-color: #009688;
+padding: 20px 8px;
+}
+
+/*Styles for images/icons in footer*/
+.footer-img {
+padding: 4px;
+text-align: center;
+border-radius: 100%;
+}
+
+/*Styles for h3 tag in the footer*/
+footer h3 {
+text-align: center;
+font-family: sans-serif;
+color: #fff;
+}
